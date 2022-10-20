@@ -1,3 +1,8 @@
-.Instructions {
-    color: rgb(245, 15, 15);
+.ingrediente {
+    background-color: blueviolet;
+    border: 30px blue;
+    margin: 5%;
+    padding: 10px;
+    text-align: center;
+    color: burlywood;
 }
