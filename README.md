@@ -1,2 +1,2 @@
 # recipe
-recipe site!
+this is my first website ever :)
