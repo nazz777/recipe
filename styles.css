@@ -5,6 +5,8 @@ body {
 }
 
 
+
+
 .ingrediente {
     background-color: blueviolet;
     width: 250px;
@@ -36,23 +38,42 @@ body {
     border: 10px solid pink;
 }
 
-
-
-div button {
-    background-color: paleturquoise;
-    border: 2px dotted rgb(177, 138, 183);
-    padding: 5px;  
-}
-
-
-
-div button:nth-of-type(1){
-    background-clip: border-box;
-}
-
-
 .gradient {
 background: linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
 -webkit-background-clip: text;
 color: transparent;
 } 
+
+.bottombarcontainer {
+    flex: 1;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+
+.faq,
+.homepage {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+    
+}
+
+.morerecipes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
