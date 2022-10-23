@@ -1,42 +1,94 @@
 body {
     margin: 8px;
-    background-color: coral;
+    background-color: rgb(242, 237, 228);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
 
 
-.ingrediente {
-    background-color: blueviolet;
-    width: 250px;
-    height: 30px;
-    border: 3px solid gold;
-    border-top-color: blueviolet;
-    color: chartreuse;
-    border-style: dotted;
-    text-align: center;
-    margin-bottom: 50px;
+.ingredientecontainer {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(242, 237, 228);
+    flex-basis: 100%;
+    margin-bottom: 30px;    
+}
+
+.instructiuni {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.cornmeal {
+    color: #d6ba6d;
+    font-weight: bold;
+}
+
+
+.listaingrediente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.pizzaimagecontainer {
+    display: flex;
+    /* margin-top: 10px; */
+}
+
+.epiccontainer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pizzaexpertcontainer {
+    margin-top: -35px;
+    display: flex;
+    justify-content: flex-end;
+    width: 61%;
+}
+
+.pizzaexpert {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.titlucredit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 
 .pizzalol {
-    width: 250px;
-    height: 150px;
+    width: 450px;
+    height: 350px;
     border: 5px solid black;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
     border-style: double;
     box-sizing: border-box;
+
 }
+
+
 
 
 
 .pizzalol:hover {
-    border: 10px solid pink;
+    border: 3px solid rgb(213, 189, 193);
 }
+
+
 
 .gradient {
 background: linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
@@ -44,36 +96,117 @@ background: linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safar
 color: transparent;
 } 
 
+
+
 .bottombarcontainer {
-    flex: 1;
-    border: 2px solid black;
     display: flex;
     justify-content: center;
     flex-direction: row;
     height: auto;
     flex-wrap: wrap;
+    height: auto;
 }
+
+
 
 .contact {
     display: flex;
     flex-direction: column;
     width: 100%;
-
-
+    height: 50px;
+    align-content: stretch;
 }
+
+
 
 .faq,
 .homepage {
     display: flex;
     flex-direction: column;
     width: 50%;
-    
-    
+    height: 30px;
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 50px; */
 }
+
+
 
 .morerecipes {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 50px;   
 }
 
+
+
+.contact button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+
+.faq button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+
+
+.homepage button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+
+
+.morerecipes button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+}
+
+.contact,
+.faq,
+.homepage,
+.morerecipes {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+button {
+    margin-top: ;
+    font-family : inherit;
+    font-size: 1em;
+}
+
+
+.instructions {
+    text-align: end;
+}
+
+
+.tips {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.tipsingredientscontainer {
+    display: flex;
+    margin-top: 2.5em;
+    justify-content: center;
+    align-items: center;
+}
